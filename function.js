@@ -14,3 +14,12 @@ function celciustofahrenheit(celsius){
 }
 
 console.log(celciustofahrenheit(32) + '°F')
+
+
+function hours_to_minutes(hours){
+    let minutes = (hours * 60)
+    return minutes
+}
+
+
+console.log(hours_to_minutes(1))
